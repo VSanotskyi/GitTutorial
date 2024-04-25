@@ -1,3 +1,7 @@
+# Список корисних команд для роботи з Git
+
+---
+
 1. git clone - копіює репозиторій (папку з файлами) на комп'ютер
 2. git branch 'branchName' - створює гілку з назвою 'branchName'
 3. git checkout 'branchName' - переходить на гілку 'branchName'
@@ -20,9 +24,11 @@
 20. git diff - показує відрізки рядків між двома версіями файлу (між двома комітами)
 21. git log - показує історію комітів
 
-Для виходу з режиму перегдялу 'q'
+> Для виходу з режиму перегдялу 'q'
 
-git config --get-regex alias - подивитися всі alias
-git config alias.'aliasName' - подивитися яку команду має 'aliasName'
-git config --global alias.co checkout - додати новий alias
-git config --global alias.co commit - змінити вєе існуючий
+### Alias
+
+1. git config --get-regex alias - подивитися всі alias
+2. git config alias.'aliasName' - подивитися яку команду має 'aliasName'
+3. git config --global alias.co checkout - додати новий alias
+4. git config --global alias.co commit - змінити вже існуючий
