@@ -22,4 +22,7 @@
 
 Для виходу з режиму перегдялу 'q'
 
-git config --get-regex alias
+git config --get-regex alias - подивитися всі alias
+git config alias.'aliasName' - подивитися яку команду має 'aliasName'
+git config --global alias.co checkout - додати новий alias
+git config --global alias.co commit - змінити вєе існуючий
